@@ -51,9 +51,30 @@ html, body {
   height: 100%;
 }
 
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 .hero-Img {
   width: 100%;
   margin: 0 auto;
+}
+
+.header {
+  position: absolute;
+  width: 20.15vw;
+  text-align: center;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Rubik", sans-serif;
+  color: white;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 3rem;
+  letter-spacing: -0.029rem;
+  margin-top: 3.3rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
